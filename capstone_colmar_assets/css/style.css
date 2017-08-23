@@ -1,0 +1,335 @@
+body {
+  font-family: Helvetica;
+}
+
+header {
+  height: 64px;
+  width: 100%;
+  font-size: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+#mobile {
+  display: none;
+}
+
+#colmar {
+  font-weight: normal;
+  color: #454545;
+}
+
+#logo {
+  padding-left: 24px;
+  color: darkgray;
+}
+
+nav {
+  text-align: right;
+  font-weight: lighter;
+  color: #454545;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+  padding-right: 16px;
+}
+
+header li:last-child {
+  margin-right: 24px;
+}
+
+#top-div {
+  display: inline-flex;
+  background-color: LightGray;
+  align-items: center;
+  color: #454545;
+  width: 100%;
+}
+
+#top-div img {
+  margin: 32px 24px;
+  width: 60%;
+  height: 100%;
+}
+
+#top-div:last-child {
+  width: 100%;
+}
+
+#start-here {
+  color: white;
+  background-color: #454545;
+  font-weight: lighter;
+  width: available;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  margin-right: 24px;
+}
+
+#second-div {
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 0px;
+  justify-content: center;
+  color: #454545;
+}
+
+#block {
+  margin: 32px 24px;
+}
+
+#block img {
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+#hurt {
+  margin-bottom: 24px;
+}
+
+#hurt p {
+  margin-bottom: 32px;
+}
+
+#practice span {
+  font-weight: normal;
+}
+
+#block2 {
+  margin: 32px 0px;
+}
+
+.list {
+  display: inline-flex;
+}
+
+.list-image {
+  padding: 16px;
+}
+
+.list-image:first-child {
+  padding-top: 0px;
+}
+
+#block2 a {
+  text-decoration: none;
+}
+
+#second-div p, a, span {
+  font-weight: lighter;
+}
+
+#third-div {
+  margin-top: 0px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: none;
+  justify-content: center;
+  background-color: lightgray;
+  background-size: cover;
+}
+
+ .center {
+  text-align: center;
+  margin: 32px 0px;
+  color: #454545;
+}
+
+#gray {
+  background-color: lightgray;
+  margin: 0px;
+  padding: 32px;
+}
+
+.course {
+  margin: 32px;
+  background-color: white;
+  color: gray;
+}
+
+.course h3 {
+  color: #454545;
+}
+
+.course li {
+  list-style-type: none;
+  font-weight: lighter;
+}
+
+.course-content {
+  padding-left: 16px;
+}
+
+#bottom-div {
+  display: inline-flex;
+}
+
+#bottom-left {
+  margin-left: 24px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+#bottom-left p {
+  font-weight: lighter;
+  color: gray;
+}
+
+#bottom-left h4 {
+  color: #454545;
+}
+
+.last {
+  display: inline-flex;
+  color: gray;
+}
+
+.last span {
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #454545;
+}
+
+.last img {
+  padding: 16px;
+}
+
+.last p {
+  font-weight: lighter;
+}
+
+video {
+  padding-top: 16px;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  font-weight: lighter;
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-left: 24px;
+  color: gray;
+  border-top: 1px lightgray solid;
+}
+
+@media screen and (max-width: 420px) {
+  #logo {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #mobile {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #top-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #top-div img{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #content {
+    padding-left: 16px;
+  }
+
+  #start-here {
+    background-color: darkgray;
+    margin-bottom: 32px;
+  }
+
+  #content h1 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  #content h3 {
+    padding-bottom: 24px;
+  }
+
+  #block {
+    display: none;
+  }
+
+  .list {
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+
+  .list-image:first-child {
+    margin-top: 16px;
+  }
+
+  .list-item {
+    padding-left: 16px;
+  }
+
+  .gone {
+    display: none;
+  }
+
+  #gray {
+    margin-top: 32px;
+    border-top: 0.5px solid lightgray;
+    background-color: white;
+  }
+
+  #third-div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #third-div h3 {
+    font-weight: normal;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    width: 100%;
+    background-color: lightgray;
+    margin: 0px;
+  }
+
+  #final {
+    padding-top: 32px;
+    border-top: 0.5px solid lightgray;
+  }
+
+  #bottom-div video {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+
+  #left {
+    display: inline;
+    color: #454545;
+    padding: 16px;
+  }
+
+  footer span {
+    display: none;
+  }
+}
